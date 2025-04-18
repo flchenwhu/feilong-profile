@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>陈飞龙 · 个人主页</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    body { font-family: 'Segoe UI', Tahoma, sans-serif; margin: 0; background: #f9f9fb; color: #333; line-height: 1.6; }
+    header { background: #1a365d; color: white; padding: 1rem 2rem; font-size: 1.2rem; position: sticky; top: 0; z-index: 999; display: flex; justify-content: space-between; align-items: center; }
+    nav a { color: white; text-decoration: none; margin: 0 1rem; font-size: 0.95rem; }
+    nav a:hover { color: #90cdf4; }
+    .hero { background: linear-gradient(135deg, #1a365d, #2a4a7f); color: white; padding: 2rem 1rem; text-align: center; }
+    .hero h1 { margin: 0.3em 0; font-size: 2.2rem; }
+    .hero p { margin: 0.2em 0; }
+    .container { max-width: 1000px; margin: auto; padding: 2rem 1rem; }
+    .about { display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; }
+    .about img { max-width: 220px; border-radius: 10px; box-shadow: 0 0 8px rgba(0,0,0,0.1); }
+    .about-text { flex: 1; }
+    section { margin-top: 2.5rem; }
+    h2 { border-left: 4px solid #4299e1; padding-left: 0.5rem; color: #2a4a7f; margin-bottom: 1rem; font-size: 1.4rem; }
+    ul { padding-left: 1.2rem; }
+    li { margin-bottom: 0.5rem; }
+    .tag { display: inline-block; background: #e2e8f0; color: #1a365d; border-radius: 4px; padding: 0 6px; font-size: 0.75rem; margin-left: 5px; }
+    footer { text-align: center; padding: 2rem; font-size: 0.9rem; color: #888; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div><strong>陈飞龙 · 个人主页</strong></div>
+  <nav>
+    <a href="#about">简介</a>
+    <a href="#education">经历</a>
+    <a href="#research">研究方向</a>
+    <a href="#papers">论文</a>
+    <a href="#projects">项目</a>
+    <a href="#patents">专利</a>
+    <a href="#awards">获奖</a>
+    <a href="#students">指导</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>陈飞龙 博士</h1>
+  <p>硕士生导师 | 南昌航空大学</p>
+  <p>研究方向：语音信号处理 · 深度学习 · 嵌入式机器学习</p>
+</section>
+
+<div class="container">
+  <section id="about" class="about">
+    <img src="assets/个人照片.jpg" alt="陈飞龙照片"/>
+    <div class="about-text">
+      <p>陈飞龙，1990年生，武汉大学博士，现任南昌航空大学讲师、硕士生导师，入选2023年“龙城英才计划”。研究方向包括语音信号处理、深度学习、嵌入式机器学习，主持/参与多项国家与省部级项目，发表SCI/EI论文20余篇，申请发明专利20余项，指导学生获多项国家级竞赛奖励。2023年荣获声频工程、建筑与环境声学学术交流年会，优秀论文奖；2024年参与广东省电子信息科学技术奖，获科技进步一等奖。学术兼职包括：中文EI《计算机工程与应用》、北大核心《计算机科学与技术》期刊的审稿专家。</p>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>教育与工作经历</h2>
+    <ul>
+      <li>2020.3–至今：南昌航空大学 信息工程学院，讲师</li>
+      <li>2014.9–2019.12：武汉大学 电子信息学院，空间探测与信息处理技术，硕博连读</li>
+      <li>2010.9–2014.6：南昌航空大学 信息工程学院，电子信息工程，学士</li>
+    </ul>
+  </section>
+
+  <section id="research">
+    <h2>研究方向</h2>
+    <ul>
+      <li>语音信号处理、语音增强与分离、说话人识别</li>
+      <li>深度学习、对比学习、TinyML</li>
+      <li>嵌入式AI、声学场景分析</li>
+    </ul>
+  </section>
+
+  <section id="papers">
+    <h2>代表性论文（节选）</h2>
+    <ul>
+      <li>Chen Feilong, Zhu Zhenjun, Sun Chengli, Xia Linqing. <strong>Evaluating metric and contrastive learning in pretrained models for environmental sound classification</strong>, Applied Acoustics, 2025 <span class="tag">SCI</span></li>
+      <li>Chen, Feilong; Lin Wenmo; Sun Chengli; Guo Qiaosheng. <strong>A Two-Stage Beamforming and Diffusion-Based Refiner System for 3D Speech Enhancement</strong>, CSSP, 2024 <span class="tag">SCI</span></li>
+      <li>Chen Feilong, Kong Meixia, Pan Zixing, Ding Biyun, Peng Jiankun. <strong>Lightweight neural networks for speech enhancement under drone noise</strong>, ICINC, 2024 <span class="tag">EI</span></li>
+      <li> Chen, Feilong; Chen, Gang; Tian, Yufang; et al. <strong>High-resolution MST radar detection of tropopause structure</strong>, Ann. Geophys., 2019 <span class="tag">SCI</span></li>
+      <li>Chen, Feilong; Chen, Gang; Shi Chunhua; et al. <strong>Strong downdrafts preceding rapid tropopause ascent</strong>, Ann. Geophys., 2018 <span class="tag">SCI</span></li>
+      <li>林文模, 陈飞龙 (通信作者), 孙成立, 朱祯君. <strong>两级U-Net波束形成网络的3D语音增强算法</strong>, 计算机工程与应用, 2023 <span class="tag">EI</span></li>
+      <li>熊贡鹤,陈飞龙(通信作者),孙成立, 郭桥生. <strong>基于退化四元数注意力机制的轻量化Transformer去雨网络</strong>, 计算机工程与应用 , 2024 <span class="tag">EI</span></li>
+      <li>郑汉芃，陈飞龙(通信作者)，董俊佳等. <strong>利用嵌入式机器学习TinyML技术的口罩检测装置</strong>,  物联网技术 , 2024 <span class="tag">武大核心（本科生）</span></li>
+      <li> Jiang Weiqi, Sun Chengli, Chen Feilong, et al. <strong> Low Complexity Speech Enhancement Network Based on Frame-Level Swin Transformer</strong>,  Electronics , 2023 <span class="tag">SCI</span></li>
+      <li> Sun Chengli, Chen Bikang, Chen Feilong, et al. <strong>  Speech Keyword Spotting Method Based on Swin-Transformer Model</strong>,   International Journal of Computational Intelligence Systems , 2024 <span class="tag">SCI</span></li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>科研项目</h2>
+    <ul>
+      <li>江西省教育厅项目：MST雷达在大气观测中的应用（主持）</li>
+      <li>研究生课程《深度学习》教学改革与实践项目（主持）</li>
+      <li>常州市“龙城英才计划”第二十三批领军人才项目（主持）</li>
+      <li>江西省赣鄱俊才支持计划--主要学科学术和技术带头人培养项目（参与）</li>
+      <li>国家自然科学基金项目：教练机装备保障智能识别与优化（参与）</li>
+    </ul>
+  </section>
+
+  <section id="patents">
+    <h2>授权与申请专利（代表性）</h2>
+    <ul>
+      <li>陈飞龙, 林文模, 朱桢君, 刘子炎, 黄春林. <strong>一种基于扩散模型的通用语音增强后端细化方法</strong>, CN202311733630.5</li>
+      <li>陈飞龙,李全涛,孙成立,刘海涛, 陈实. <strong>一种基于多尺度特征注意力网络的声音检测与定位方法</strong>, CN202311507785.7</li>
+      <li>陈飞龙, 朱祯君, 潘子兴, 彭建坤, 孙成立, 丁碧云. <strong>一种基于度量学习的环境声音分类方法及系统</strong>, CN202411417307.1</li>
+      <li>张莹, 吴宇恒, 翟乐乐, 陈飞龙, 等. <strong>一种适用于多旋翼无人机搭载麦克风阵列的通用装置</strong>, ZL 2024 2 0567503.6</li>
+    </ul>
+  </section>
+
+  <section id="awards">
+    <h2>获奖情况</h2>
+    <ul>
+      <li>2023 声频工程年会 优秀论文奖（第1作者）</li>
+      <li>2023 常州市“龙城英才计划”领军人才（独立获奖）</li>
+      <li>2024 广东省电子信息科学技术奖 科技进步一等奖（参与）</li>
+      <li>2018年海峡两岸青年学术研讨会，优秀论文三等奖（独立获奖）</li>
+    </ul>
+  </section>
+
+  <section id="students">
+    <h2>学生指导与竞赛成果</h2>
+    <ul>
+      <li>2023 “兆易创新杯”第十八届中国研究生电子设计竞赛 华中一等奖（指导）</li>
+      <li>2022 L3DAS 3D语音增强国际挑战赛 第4名（指导）</li>
+      <li>2024 全国大学生智能车竞赛 一等奖、二等奖 共3项（指导）</li>
+      <li>2022 江西省第十七届“挑战杯”大学生课外学术科技作品竞赛省级一等奖（指导）</li>
+      <li>2022 全国高校商业精英挑战赛品牌策划竞赛 全国二等奖（指导）</li>
+      <li>2024 蓝桥杯全国总决赛 Python 三等奖（指导）</li>
+    </ul>
+  </section>
+</div>
+
+<footer>
+  &copy; 2025 陈飞龙 · 基于简历自动生成 · 个人主页
+</footer>
+
+</body>
+</html>
